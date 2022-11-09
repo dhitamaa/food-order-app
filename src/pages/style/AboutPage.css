@@ -1,0 +1,79 @@
+.about-page .about-bg {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  padding: 14rem 13rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)),
+    url("../../assets/images/about_bg-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-page .intro {
+  color: var(--clr-white);
+  line-height: 2rem;
+}
+
+.about-page .about-team:nth-child(5) {
+  margin-inline: auto;
+}
+
+.about-page .about-team img {
+  width: 100%;
+}
+
+.about-page .about-team .about-img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.about-page .about-team .about-intro {
+  width: 325px;
+  padding: 1rem;
+}
+
+.about-intro p{
+  margin-top: 1rem;
+}
+
+.about-page .about-team .card {
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media only screen and (max-width:578px){
+  .about-page .about-bg{
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  .intro p{
+    font-size: 0.8em;
+  }
+
+  .about-page .about-team{
+      width: 95%;
+      height: auto;
+  }
+
+  .about-page .about-team .card{
+    height: 130px;
+  }
+  
+  .about-page .about-team .about-intro{
+      padding: 10px;
+    }
+
+    .about-intro h5{
+      font-size: 1em;
+    }
+
+    .about-intro p{
+      margin-top: 0.5rem;
+      font-size: .8em;
+    }
+}

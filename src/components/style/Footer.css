@@ -1,0 +1,10 @@
+.footer {
+  background-color: var(--clr-primary);
+  margin-top: auto;
+}
+
+.footer .nav .nav-item a:hover {
+  color: var(--clr-white) !important;
+  font-weight: 600;
+  text-decoration: underline;
+}

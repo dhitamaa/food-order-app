@@ -1,0 +1,68 @@
+.menu-section .menu {
+  width: 100%;
+  height: 530px;
+}
+
+.menu-section .home-card-menu .btn-add {
+  border-radius: 50%;
+  background-color: var(--clr-primary);
+  z-index: 999;
+}
+
+.menu-section .home-card-menu {
+  padding: 0.65rem;
+}
+
+.menu-section .home-card-menu .card {
+  width: 325px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.menu-section .home-card-menu .subtitle {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.menu-section .home-card-menu p {
+  margin: 0;
+  font-weight: 600;
+  color: var(--clr-primary);
+}
+
+.menu-section .btn-ctg {
+  padding: 10px 15px;
+  border: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
+  background-color: var(--clr-white);
+  border-radius: 20px;
+}
+
+.menu-section .btn-ctg.active {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.menu-section .btn-ctg:hover,
+.menu-section .btn-ctg:active {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.menu-section .pilih-menu {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 570px) {
+  .menu {
+    width: 10px;
+  }
+  .menu-section .pilih-menu {
+    width: 50%;
+    padding: 2px;
+    display: flex;
+  }
+}

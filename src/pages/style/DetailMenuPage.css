@@ -1,0 +1,13 @@
+.detail-menu-page img {
+  max-width: 100%;
+}
+
+.detail-menu-page .subtitle {
+  color: var(--clr-primary);
+}
+
+.detail-menu-page .card {
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}

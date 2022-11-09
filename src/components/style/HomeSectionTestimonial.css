@@ -1,0 +1,28 @@
+.testimonial-section .card-testi {
+  width: 525px;
+}
+
+.testimonial-section .card-testi h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width:578px){
+  .card-testi{
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+
+  .keterangan{
+    text-align: justify;
+  }
+
+  .title{
+    font-size: 1.8rem;
+  }
+
+  .sub{
+    font-size: 1em;
+  }
+}

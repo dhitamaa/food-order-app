@@ -1,0 +1,60 @@
+.header .nav a {
+  color: var(--clr-black);
+}
+
+.header .nav a:hover {
+  font-weight: 600;
+  color: var(--clr-primary) !important;
+  text-decoration: underline;
+}
+.header .nav img {
+  cursor: pointer;
+}
+
+.header .navbar-brand img {
+  cursor: pointer;
+}
+
+.header .dropdown .dropdown-toggle {
+  background-image: unset;
+}
+.header .dropdown .btn {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.header .dropdown-toggle::after {
+  display: unset;
+  content: unset;
+  margin: 0;
+  border: none;
+}
+.header .btn-primary {
+  background-color: transparent !important;
+}
+
+.header .dropdown-item:hover {
+  cursor: default;
+  font-weight: 400 !important;
+  color: var(--clr-black) !important;
+  background-color: transparent !important;
+}
+.header a.btn-item:hover {
+  cursor: pointer;
+  background-color: var(--clr-primary) !important;
+  color: var(--clr-white) !important;
+}
+.header .nav-link.dropdown-toggle {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.header .dropdown-menu {
+  left: unset;
+  right: 0;
+}
+.header .dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+.header .dropdown:focus .dropdown-menu {
+  display: block !important;
+}

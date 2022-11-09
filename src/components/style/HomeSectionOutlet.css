@@ -1,0 +1,45 @@
+.outlet-section img {
+  max-width: 100%;
+}
+
+.outlet-section .col {
+  padding: 0 !important;
+}
+
+.outlet-section .bg-wrapper-outlet {
+  background-color: var(--clr-accent);
+}
+
+.outlet-section .btn-jelajahi-outlet {
+  width: 200px;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
+.outlet-section .outlet-card .card {
+  border: none;
+  border-radius: 15px;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.outlet-section .outlet-card h4 {
+  color: var(--clr-black) !important;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width:578px){
+  .m-0{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .bg-wrapper-outlet{
+    order: 2;
+  }
+
+  .map{
+    order: 1;
+  }
+}

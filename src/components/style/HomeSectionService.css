@@ -1,0 +1,23 @@
+.service-section {
+  margin-top: 3rem;
+}
+
+.service-section .service-subtitle {
+  margin-top: 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.service-section .row {
+  margin-top: 4rem;
+}
+
+@media (min-width: 992px) {
+  .service-section .service-title {
+    line-height: 45pt;
+  }
+
+  .service-section .service-paragraph {
+    width: 66%;
+  }
+}
